@@ -26,3 +26,13 @@ Tech Stack
 * BGG API
 * Meetup API
 <br /><br />
+
+
+Links 
+----
+
+* [Git Quickstart](https://github.com/leisenstein/DeveloperNotes/blob/master/GIT.md)
+* Bootstrap Template
+
+<br /><br />
+
