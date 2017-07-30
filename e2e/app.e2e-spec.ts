@@ -1,14 +1,14 @@
-import { AgbWebPage } from './app.po';
+import { SbAdminCliUpdatePage } from './app.po';
 
-describe('agb-web App', function() {
-  let page: AgbWebPage;
+describe('sb-admin-cli-update App', () => {
+  let page: SbAdminCliUpdatePage;
 
   beforeEach(() => {
-    page = new AgbWebPage();
+    page = new SbAdminCliUpdatePage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!!');
   });
 });
